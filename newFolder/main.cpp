@@ -1,16 +1,18 @@
 #include <iostream>
 using namespace std;
 
-void doSomething();
+void printFavorateInteger (int x);
 
 int main()
 {
-  doSomething();
+  int a;
+  cout << "Enter your favorate integer :" << endl;
+  cin >> a;
+  printFavorateInteger(a);
   return 0;
 }
 
-void doSomething()
+void printFavorateInteger (int x)
 {
-  cout << "aaa";
+  cout << "Your favorate integer is "<< x <<endl;
 }
-
